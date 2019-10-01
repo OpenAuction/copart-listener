@@ -1,0 +1,33 @@
+{
+  "name": "copart-listener",
+  "version": "0.1.0",
+  "description": "Listen to copart auction messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Friss/copart-listener.git"
+  },
+  "keywords": [
+    "copart",
+    "auction",
+    "cars"
+  ],
+  "author": "Zachary Friss <friss@friss.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Friss/copart-listener/issues"
+  },
+  "homepage": "https://github.com/Friss/copart-listener#readme",
+  "dependencies": {
+    "atob": "2.1.2",
+    "ws": "7.1.2"
+  },
+  "devDependencies": {
+    "eslint": "6.5.1",
+    "jest": "24.9.0",
+    "prettier": "1.18.2"
+  }
+}
